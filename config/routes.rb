@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
+
+  root 'tasks#start'
+
   resources :tasks
   
   resources :users do
